@@ -2,9 +2,13 @@ import { useState } from "react";
 import viteLogo from "/vite.svg";
 import reactLogo from "@/assets/react.svg";
 import "@/App.css";
+import { User } from "@/interfaces";
 
 function App() {
   const [count, setCount] = useState(0);
+  fetch("/api/user")
+    .then((response) => response.json())
+    .then((res: User) => console.log(res));
 
   return (
     <>

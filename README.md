@@ -7,3 +7,4 @@ The purpose of this repo is to create a base template with everything a frontend
 1. [Vite Initialization](https://vitejs.dev/guide/)
 2. [Custom Path Resolution](https://javascript.plainenglish.io/how-to-set-up-path-resolving-in-vite-ad284e0d9eae)
 3. [Tailwind Instillation](https://tailwindcss.com/docs/guides/vite)
+4. [Miragejs Installation](https://miragejs.com/docs/getting-started/installation/)

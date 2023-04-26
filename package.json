@@ -11,10 +11,12 @@
   },
   "dependencies": {
     "@types/node": "^18.16.1",
+    "miragejs": "^0.1.47",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "@typescript-eslint/eslint-plugin": "^5.57.1",
