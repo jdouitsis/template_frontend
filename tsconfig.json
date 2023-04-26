@@ -5,6 +5,12 @@
     "module": "ESNext",
     "skipLibCheck": true,
 
+    /* CUstom Path Resolving */
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+
     /* Bundler mode */
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
